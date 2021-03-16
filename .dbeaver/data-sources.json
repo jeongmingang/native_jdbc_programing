@@ -31,8 +31,23 @@
 				"url": "jdbc:mysql://localhost:3306/native_jdbc",
 				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
 				"type": "dev",
-				"auth-model": "native",
-				"handlers": {}
+				"auth-model": "native"
+			}
+		},
+		"mysql5-177f14073a9-6ee5a2cf87ee47ae": {
+			"provider": "mysql",
+			"driver": "mysql5",
+			"name": "grade(user_grade)",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 5.7",
+				"type": "dev",
+				"auth-model": "native"
 			}
 		}
 	},

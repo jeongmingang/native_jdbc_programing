@@ -84,4 +84,3 @@ select empno, empname, title, manager, salary, dept
 from employee
 where dept = (select deptNo from department where deptNo = 1);
 
-
